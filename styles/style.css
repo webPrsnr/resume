@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.wrapper__outter {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.wrapper__inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.preview__name,
+.preview__speciality,
+.preview__mail,
+.preview__telegram,
+.preview__current-location {
+  flex: 1;
+}
+
+.preview__name {
+  font-family: "Nunito";
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.preview__speciality {
+  display: flex;
+  justify-content: space-between;
+}
+
+.preview__mail > a,
+.preview__telegram > a {
+  color: black;
+}
+
+.sign {
+  text-transform: uppercase;
+  color: #339999;
+}
+
+.job__name {
+  text-transform: uppercase;
+}
+
+.education__years {
+  color: gray;
+}
+
+.about__list {
+  list-style-type: circle;
+}
+
+.preview__img,
+.job__desired,
+.current__skills,
+.current__courses,
+.current__languages,
+.eduaction__main-title,
+.hobbies__title,
+.about__title {
+  min-width: 225px;
+  word-wrap: break-word;
+}
+
+.preview__img > img {
+  max-width: 100%;
+}
+
+.job,
+.preview,
+.skills,
+.courses,
+.languages,
+.eduaction,
+.hobbies,
+.about {
+  display: flex;
+  padding-top: 30px;
+}
+
+.job,
+.skills,
+.courses,
+.languages,
+.eduaction,
+.hobbies,
+.about {
+  align-items: baseline;
+}
+
+.preview__info,
+.job__name,
+.skills__descr,
+.courses__descr,
+.languages__list,
+.education__list,
+.hobbies__descr,
+.about__list {
+  padding-left: 30px;
+}
