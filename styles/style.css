@@ -29,6 +29,10 @@ p {
   flex-direction: column;
 }
 
+.preview__main {
+  display: flex;
+}
+
 .preview__name,
 .preview__speciality,
 .preview__mail,
@@ -48,8 +52,7 @@ p {
   justify-content: space-between;
 }
 
-.preview__mail > a,
-.preview__telegram > a {
+a {
   color: black;
 }
 
@@ -62,12 +65,19 @@ p {
   text-transform: uppercase;
 }
 
+.education__title,
+.education__descr {
+  font-weight: normal;
+}
+
 .education__years {
   color: gray;
 }
 
+.courses__list,
 .about__list {
   list-style-type: circle;
+  font-size: 14px;
 }
 
 .preview__img,
@@ -83,7 +93,7 @@ p {
 }
 
 .preview__img > img {
-  max-width: 100%;
+  max-width: 225px;
 }
 
 .job,
@@ -114,7 +124,10 @@ p {
 .courses__descr,
 .languages__list,
 .education__list,
-.hobbies__descr,
-.about__list {
+.hobbies__descr {
   padding-left: 30px;
+}
+.courses__list,
+.about__list {
+  padding-left: 40px;
 }
